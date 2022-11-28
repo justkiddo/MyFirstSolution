@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Projects\\MyFirstSolution\\AdditTasks\\AdditTasks.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Cloned prj\\AdditTasks\\AdditTasks.csproj",
       "projectName": "AdditTasks",
-      "projectPath": "C:\\Users\\User\\Desktop\\Projects\\MyFirstSolution\\AdditTasks\\AdditTasks.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Cloned prj\\AdditTasks\\AdditTasks.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Projects\\MyFirstSolution\\AdditTasks\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Cloned prj\\AdditTasks\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

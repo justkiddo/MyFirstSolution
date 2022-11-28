@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Projects\\MyFirstSolution\\MySecondConsole\\MySecondConsole.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Cloned prj\\MySecondConsole\\MySecondConsole.csproj",
       "projectName": "MySecondConsole",
-      "projectPath": "C:\\Users\\User\\Desktop\\Projects\\MyFirstSolution\\MySecondConsole\\MySecondConsole.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Cloned prj\\MySecondConsole\\MySecondConsole.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Projects\\MyFirstSolution\\MySecondConsole\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Cloned prj\\MySecondConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

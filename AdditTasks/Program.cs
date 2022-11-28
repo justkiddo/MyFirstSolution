@@ -118,8 +118,6 @@ for (int i = n; i > 0; i--)
     if (sum == i) Console.WriteLine(i+ " is perfect number");
 }
 
-Console.WriteLine(" done");
-
 
 //  6
 
