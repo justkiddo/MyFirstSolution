@@ -1,0 +1,45 @@
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\bin\Debug\net6.0\MySecondConsole.exe
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\bin\Debug\net6.0\MySecondConsole.deps.json
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\bin\Debug\net6.0\MySecondConsole.runtimeconfig.json
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\bin\Debug\net6.0\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\bin\Debug\net6.0\MySecondConsole.pdb
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\obj\Debug\net6.0\MySecondConsole.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\obj\Debug\net6.0\MySecondConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\obj\Debug\net6.0\MySecondConsole.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\obj\Debug\net6.0\MySecondConsole.AssemblyInfo.cs
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\obj\Debug\net6.0\MySecondConsole.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\obj\Debug\net6.0\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\obj\Debug\net6.0\refint\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\obj\Debug\net6.0\MySecondConsole.pdb
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\obj\Debug\net6.0\MySecondConsole.genruntimeconfig.cache
+C:\Users\User\Desktop\Projects\MyFirstConsole\MySecondConsole\obj\Debug\net6.0\ref\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\bin\Debug\net6.0\MySecondConsole.exe
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\bin\Debug\net6.0\MySecondConsole.deps.json
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\bin\Debug\net6.0\MySecondConsole.runtimeconfig.json
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\bin\Debug\net6.0\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\bin\Debug\net6.0\MySecondConsole.pdb
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.AssemblyInfo.cs
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\refint\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.pdb
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.genruntimeconfig.cache
+C:\Users\User\Desktop\Projects\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\ref\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\bin\Debug\net6.0\MySecondConsole.exe
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\bin\Debug\net6.0\MySecondConsole.deps.json
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\bin\Debug\net6.0\MySecondConsole.runtimeconfig.json
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\bin\Debug\net6.0\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\bin\Debug\net6.0\MySecondConsole.pdb
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.AssemblyInfo.cs
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\refint\MySecondConsole.dll
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.pdb
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\MySecondConsole.genruntimeconfig.cache
+C:\Users\User\Desktop\Projects\Новая папка\MyFirstSolution\MySecondConsole\obj\Debug\net6.0\ref\MySecondConsole.dll
