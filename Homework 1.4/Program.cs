@@ -22,18 +22,51 @@
 
 //2
 
-int i = 200;
-string res = "";
-do
+//int i = 200;
+//string res = "";
+//do
+//{
+//    if (i % 17 == 0)
+//    {
+//        res += i+"," ;
+//    }
+//    i++;
+//} while (i<500);
+//Console.WriteLine(res);
+
+
+//3 Bubble sort
+
+int[] newArr = new int[15];
+int tempNum;
+Random rnd = new Random();
+
+for (int i = 0;i<newArr.Length ; i++)
 {
-    if (i % 17 == 0)
+    newArr[i] = rnd.Next(1, 200);
+}
+
+for (int i = 0; i < newArr.Length; i++)
+{
+    Console.WriteLine(newArr[i]);
+}
+
+Console.WriteLine();
+
+for (int i = 0; i < newArr.Length; i++)
+{
+    for (int j = i + 1; j < newArr.Length; j++)
     {
-        res += i+"," ;
+        if (newArr[i] > newArr[j])
+        {
+            tempNum = newArr[i];
+            newArr[i] = newArr[j];
+            newArr[j] = tempNum;
+        }
     }
-    i++;
-} while (i<500);
-Console.WriteLine(res);
+}
 
-
-//3
-
+for (int i = 0; i < newArr.Length; i++)
+{
+    Console.WriteLine(newArr[i]);
+}
