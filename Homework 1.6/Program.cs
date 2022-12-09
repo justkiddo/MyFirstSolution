@@ -21,3 +21,5 @@ Console.WriteLine();
 
 Cone cn = new Cone(5, 15);
 cn.Area();
+Console.WriteLine();
+// 3
