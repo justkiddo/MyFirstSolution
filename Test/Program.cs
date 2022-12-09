@@ -1,28 +1,31 @@
 ﻿
 
-
-int[] source = { 5, 4, 7, 2, 9 };
-int index = 0;
-
-for (int i = 0; i< source.Length; i++)
+internal class Rectangle
 {
-    Console.WriteLine(source[i]);
+    double side1;
+    double side2;
+
+    public double Perimeter { get { return PerimeterCalculator(); } }
+    public double Area { get { return AreaCalculator(); } }
+
+
+    public Rectangle(double side1, double side2)
+    {
+        this.side1 = side1;
+        this.side2 = side2;
+    }
+
+    private double AreaCalculator()
+    {
+        double area = side1 * side2;
+        return area;
+    }
+
+    private double PerimeterCalculator()
+    {
+        double perimeter = 2 * (side1 + side2);
+        return perimeter;
+    }
 }
+  
 
-for (int i = index; i < source.Length - 1; i++)
-{
-    source[i] = source[i + 1];
-}
-Array.Resize(ref source, source.Length - 1);
-
-
-Console.WriteLine(String.Join(", ", source));
-
-
-
-//int[] array = new int[3];
-//for (int i = 0; i < array.Length; i++)
-//{
-//    Console.WriteLine("Введите " + i + " число");
-//    array[i] = Convert.ToInt32(Console.ReadLine());
-//}
