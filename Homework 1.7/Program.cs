@@ -20,22 +20,18 @@ Console.WriteLine();
 plane.Move();
 Console.WriteLine();
 
-// 3 ______________________________________________________ пока не работает
-Bag bag= new Bag();
-
-Console.WriteLine("Введите кол-во обьектов");
-int numberOf = Convert.ToInt32(Console.ReadLine());
-Item[] items = new Item[numberOf];
-for (int i=0; i<numberOf;i++)
-{
-      items[i] = new Item();
-      Console.WriteLine("Введите имя предмета");
-      string name = Console.ReadLine();
-      items[i].SetName(name);
-}
-Console.WriteLine();
-
-bag.AddItem(items);
-Console.WriteLine();
+// 3 ______________________________________________________ 
+Bag bag = new Bag();
+bag.OpenClose();
+Item it2 = new Item();
+it2.SetName("ключи");
+Item it3 = new Item();
+it3.SetName("бумажник");
+Item it4 = new Item();
+it4.SetName("еще чето");
+bag.AddItem(it1);
+bag.AddItem(it2);
+bag.AddItem(it3);
+bag.AddItem(it4);
 
 bag.ShowItems();

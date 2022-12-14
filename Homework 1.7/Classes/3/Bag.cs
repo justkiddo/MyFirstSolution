@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,43 +10,65 @@ namespace Homework_1._7.Classes._3
     internal class Bag
     {
         private Item[] item = new Item[2];
-        private bool isOpen = false;
+        private bool _isOpen = false;
+        private int _itemIndex = 0;
 
         public void OpenClose()
         {
-            if (isOpen == false)
+            if (_isOpen == false)
             {
-                isOpen= true;
+                _isOpen = true;
                 Console.WriteLine("Сумка открыта");
             }
             else
             {
-                isOpen = false;
+                _isOpen = false;
                 Console.WriteLine("Сумка закрыта");
             }
         }
 
-        public void AddItem(Item[] it)
+        public void AddItem(Item it)
         {
-            if (isOpen == true)
+            if (_isOpen == true)
             {
-                for (int i = 0; i < item.Length; i++)
+                if (_itemIndex<item.Length) {
+                    item[_itemIndex] = it;
+                    _itemIndex++;
+                    Console.WriteLine($"{it.GetName().ToString()} добавлен");
+                }
+                else
                 {
-                    it[i] = item[i];
-                    Console.WriteLine($"обьект {it[i].GetName()} добавлен");
+                    Console.WriteLine("Сумка переполнена");
                 }
             }
             else
             {
-                Console.WriteLine("Сумка закрыта или переполнена");
+                Console.WriteLine("Сумка закрыта");
+            }
+          
+        }
+
+        public Item GetItem(int index)
+        {
+            if (_isOpen == true) {
+                Item tempItem = item[index];
+                item[index] = null;
+                _itemIndex--;
+                return tempItem;
+            }
+            else
+            {
+                Console.WriteLine("Сумка закрыта");
+                return null;
             }
         }
 
         public void ShowItems()
         {
-            for (int i=0;i< item.Length;i++)
+            for (int i=0;i<_itemIndex;i++)
             {
-                item[i].GetName();
+
+                Console.WriteLine($"в сумке есть {item[i].GetName().ToString()}");
             }
         }
 
