@@ -8,7 +8,7 @@ namespace Homework_1._8.Classes
 {
     internal class Room
     {
-        Printer printer;
+        Printer printer = new ();
 
         public void MakeThisLazyPrinterWork(string value)
         {
