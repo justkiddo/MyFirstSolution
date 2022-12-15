@@ -68,7 +68,7 @@ namespace Homework_1._7.Classes._3
             for (int i=0;i<_itemIndex;i++)
             {
 
-                Console.WriteLine($"в сумке есть {item[i].GetName().ToString()}");
+                Console.WriteLine($"в сумке есть {item[i].GetName()}");
             }
         }
 
