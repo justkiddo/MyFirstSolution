@@ -9,7 +9,7 @@ namespace Homework_1._7.Classes._3
 {
     internal class Bag
     {
-        private Item[] item = new Item[2];
+        private Item[] _item = new Item[2];
         private bool _isOpen = false;
         private int _itemIndex = 0;
 
@@ -31,8 +31,8 @@ namespace Homework_1._7.Classes._3
         {
             if (_isOpen == true)
             {
-                if (_itemIndex<item.Length) {
-                    item[_itemIndex] = it;
+                if (_itemIndex< _item.Length) {
+                    _item[_itemIndex] = it;
                     _itemIndex++;
                     Console.WriteLine($"{it.GetName().ToString()} добавлен");
                 }
@@ -51,8 +51,8 @@ namespace Homework_1._7.Classes._3
         public Item GetItem(int index)
         {
             if (_isOpen == true) {
-                Item tempItem = item[index];
-                item[index] = null;
+                Item tempItem = _item[index];
+                _item[index] = null;
                 _itemIndex--;
                 return tempItem;
             }
@@ -68,7 +68,7 @@ namespace Homework_1._7.Classes._3
             for (int i=0;i<_itemIndex;i++)
             {
 
-                Console.WriteLine($"в сумке есть {item[i].GetName()}");
+                Console.WriteLine($"в сумке есть {_item[i].GetName()}");
             }
         }
 

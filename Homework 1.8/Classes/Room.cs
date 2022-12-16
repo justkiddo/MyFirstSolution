@@ -8,26 +8,29 @@ namespace Homework_1._8.Classes
 {
     internal class Room
     {
-        Printer printer = new ();
+        Printer printer = new Printer();
 
         public void MakeThisLazyPrinterWork(string value)
         {
             printer.Print(value);
         }
 
-        public void NewPrinter()
+        public Printer NewPrinter()
         {
-            printer = new Printer();
+            Printer printer = new Printer();
+            return printer;
         }
 
-        public void NewGreenPrinter()
+        public Printer NewGreenPrinter()
         {
-            printer = new GreenPrinter();
+            Printer printer = new GreenPrinter();
+            return printer;
         }
 
-        public void NewBluePrinter()
+        public Printer NewBluePrinter()
         {
-            printer = new BluePrinter();
+            Printer printer = new BluePrinter();
+            return printer;
         }
 
     }

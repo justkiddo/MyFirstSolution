@@ -11,12 +11,8 @@ GreenPrinter gprt = new GreenPrinter();
 
 Room rm = new Room();
 
-rm.NewGreenPrinter();
-rm.MakeThisLazyPrinterWork("is this green?");
+rm.NewGreenPrinter().Print("is this green?");
 
-rm.NewBluePrinter();
-rm.MakeThisLazyPrinterWork("is this blue?");
+rm.NewBluePrinter().Print("is this blue?");
 
-
-rm.NewPrinter();
-rm.MakeThisLazyPrinterWork("is this white?");
+rm.NewPrinter().Print("is this white?");
