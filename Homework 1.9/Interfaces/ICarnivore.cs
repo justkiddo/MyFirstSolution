@@ -10,7 +10,6 @@ namespace Homework_1._9.Interfaces
     {
          string typeC { get; set; }
          string foodC { get; set; }
-         const bool isCarnivore = true;
         public void DisplayEatC();
 
     }

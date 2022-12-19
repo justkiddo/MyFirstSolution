@@ -11,8 +11,8 @@ namespace Homework_1._9.Classes
     {
         string sound;
         string colour;
-        public string typeH { get; set; } = "default";
-        public string foodH { get; set; } = "default";
+        public string typeH { get; set; } = "some herbivore food";
+        public string foodH { get; set; } = "some herbivore food";
 
 
         public Elephant(string sound, string colour)

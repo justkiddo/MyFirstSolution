@@ -12,8 +12,8 @@ namespace Homework_1._9.Classes
     {
         string sound;
         string colour;
-        public string typeC { get; set; } = "default";
-        public string foodC { get; set; } = "default";
+        public string typeC { get; set; } = "some carnivore type";
+        public string foodC { get; set; } = "some carnivore food";
 
         public Cat(string sound, string colour)
         {
