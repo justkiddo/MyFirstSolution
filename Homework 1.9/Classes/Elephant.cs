@@ -47,7 +47,12 @@ namespace Homework_1._9.Classes
             {
                 Console.WriteLine(this.GetName());
                 return true;
-            }else {
+            }else if (this.size == other.size)
+            {
+                Console.WriteLine("elephats are equal");
+                return false;
+            }
+            else{
                 Console.WriteLine(other.GetName());
                 return false;
             }
