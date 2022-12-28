@@ -26,10 +26,6 @@
 //        }
 //        Array.Resize(ref numArray, numArray.Length - 1);
 //    }
-//    else
-//    {
-
-//    }
 
 //}
 
@@ -45,10 +41,6 @@
 
 //        }
 //        Array.Resize(ref numArray, numArray.Length - 1);
-//    }
-//    else
-//    {
-
 //    }
 
 

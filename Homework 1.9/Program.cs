@@ -3,7 +3,7 @@ using Homework_1._9.Interfaces;
 
 Cat cat = new Cat("meow", "black");
 Bear bear = new Bear("rrrrraaarrr", "brown");
-Elephant elephant1 = new Elephant("Pawoooo", "grey",33);
+Elephant elephant1 = new Elephant("Pawoooo", "grey",23);
 Elephant elephant2 = new Elephant("Pawoooo", "light-grey", 23);
 
 cat.SetName("kitty");
@@ -25,6 +25,9 @@ elephant1.SetNumOfLegs(4);
 elephant1.DisplayAnimal();
 elephant1.DisplayEatH();
 Console.WriteLine();
+
+
+// 2 (?)
 
 Zoo<ICarnivore> zooCar = new Zoo<ICarnivore>();
 Zoo<IHerbivore> zooHerb = new Zoo<IHerbivore>();
