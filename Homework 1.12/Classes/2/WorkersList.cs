@@ -13,15 +13,13 @@ namespace Homework_1._12.Classes._2
 
         protected List<Workers> _workers = new List<Workers>();
 
-     
-
         public void addWorker(Workers worker)
         {
             if (worker != null)
             {
                 _workers.Add(worker);
                 Console.WriteLine($"worker added - {worker.ToString()}");
-
+                OrderBySalary();
             }
             else
             {
@@ -29,11 +27,20 @@ namespace Homework_1._12.Classes._2
             }
         }
 
-
-
-        public void OrderBySalary(List<Workers> workers)
+        public void ShowWorkers()
         {
-        
+            foreach (Workers worker in _workers)
+            {
+                Console.WriteLine(worker.ToString());
+            }
+        }
+
+
+
+        private void OrderBySalary()
+        {
+            _workers.Sort();
+            Console.WriteLine("List was sorted");
         }
 
 

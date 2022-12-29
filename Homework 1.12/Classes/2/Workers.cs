@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Homework_1._12.Classes._2
 {
-    public class Workers
+    public class Workers : IComparable<Workers>
     {
         string name = "default";
         int salary = 0;
@@ -43,6 +43,17 @@ namespace Homework_1._12.Classes._2
             string info = $"name - {name} | salary - {salary}";
           //  Console.WriteLine(info);
             return info;
+        }
+
+        public int CompareTo(Workers? other)
+        {
+            if (other == null) return 1;
+
+            Workers otherSalary = other as Workers;
+            if (otherSalary != null)
+                return this.salary.CompareTo(otherSalary.salary);
+            else
+                throw new ArgumentException("Object is not a Temperature");
         }
     }
 }
