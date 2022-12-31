@@ -33,6 +33,6 @@ cW.addWorker(worker4);
 cW.addWorker(worker5);
 cW.addWorker(worker6);
 
-
+cW.ShowWorkers();
 
 
