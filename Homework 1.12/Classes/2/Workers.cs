@@ -53,7 +53,7 @@ namespace Homework_1._12.Classes._2
             if (otherSalary != null)
                 return this.salary.CompareTo(otherSalary.salary);
             else
-                throw new ArgumentException("Object is not a Temperature");
+                throw new ArgumentException("Object is not a Worker");
         }
     }
 }
