@@ -42,7 +42,7 @@ namespace Homework_1._13.Classes
         }
         public override string ToString()
         {
-            string value = $"name - {name}| cost - {cost}";
+            string value = $"name - {name} | cost - {cost}";
             return value;
         }
 

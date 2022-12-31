@@ -2,6 +2,7 @@
 
 
 using Homework_1._13.Classes;
+using System.IO;
 
 Shop shop= new Shop();
 Seller seller= new Seller();
@@ -19,6 +20,8 @@ seller.AddProduct(product1);
 seller.AddProduct(product2);
 seller.ShowProducts();
 seller.SellProduct(customer, product1);
+seller.SellProduct(customer, product1);
+
 seller.ShowProducts();
 
 Console.WriteLine(customer.GetMoney());
