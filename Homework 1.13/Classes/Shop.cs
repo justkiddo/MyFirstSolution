@@ -9,8 +9,10 @@ namespace Homework_1._13.Classes
 {
     internal class Shop :IEnumerable<Product>
     {
+
+
         public string name = "default";
-        List<Product> products = new List<Product>();
+        public List<Product> products = new List<Product>();
 
         public IEnumerator<Product> GetEnumerator()
         {
@@ -21,6 +23,8 @@ namespace Homework_1._13.Classes
         {
             return products;
         }
+
+        
 
 
 

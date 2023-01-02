@@ -39,5 +39,15 @@ namespace Homework_1._13.Classes
             Console.WriteLine();
         }
 
+        public void Liqudation(Shop shop)
+        {
+            if (GetList().Count == 0)
+            {
+                shop = null;   // не уверен в правильности
+                GC.Collect();
+            }
+            else throw new Exception("Still got products");
+        }
+
     } 
 }
