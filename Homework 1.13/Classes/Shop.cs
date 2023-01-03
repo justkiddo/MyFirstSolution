@@ -9,10 +9,21 @@ namespace Homework_1._13.Classes
 {
     internal class Shop :IEnumerable<Product>
     {
+        Seller seller;
+        public Shop(Seller seller) 
+        {
+            if (seller != null) {
+                this.seller = seller;
+            }
+            else
+            {
+                throw new Exception("There is no seller");
+            }
+        }
 
 
         public string name = "default";
-        public List<Product> products = new List<Product>();
+        public static List<Product> products = new List<Product>();
 
         public IEnumerator<Product> GetEnumerator()
         {

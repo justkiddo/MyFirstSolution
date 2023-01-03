@@ -4,7 +4,7 @@ using System.IO;
 
 
 Seller seller= new Seller();
-Shop shop = new Shop();
+Shop shop = new Shop(seller);
 Product product1 = new Product();
 Product product2 = new Product();
 Customer customer = new Customer();
@@ -12,7 +12,7 @@ Customer customer = new Customer();
 customer.SetMoney(200);
 
 product1.SetName("Pirozhok");
-product1.SetCost(26);
+product1.SetCost(25);
 product2.SetName("Tvorozhok");
 product2.SetCost(55);
 
