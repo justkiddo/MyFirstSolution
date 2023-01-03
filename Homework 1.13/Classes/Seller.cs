@@ -20,6 +20,7 @@ namespace Homework_1._13.Classes
             Console.WriteLine(product.ToString() + " added");
             Console.WriteLine();
         }
+
         public void SellProduct(Customer customer1, Product product)
         {
             if (customer1.GetMoney() < product.GetCost()) throw new Exception("Not enough money");
@@ -30,6 +31,7 @@ namespace Homework_1._13.Classes
             customer1.SetMoney(customer1.GetMoney()-product.GetCost());
                 GetList().Remove(product);
         }
+
         public void ShowProducts()
         {
             for (int i = 0; i < GetList().Count; i++)

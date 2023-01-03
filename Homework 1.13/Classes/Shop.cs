@@ -24,10 +24,6 @@ namespace Homework_1._13.Classes
             return products;
         }
 
-        
-
-
-
         IEnumerator IEnumerable.GetEnumerator()
         {
             return (IEnumerator)GetEnumerator();
