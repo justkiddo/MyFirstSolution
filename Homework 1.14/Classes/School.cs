@@ -17,12 +17,25 @@ namespace Homework_1._14.Classes
 
         public School(Kindergarten kindergarten)
         {
-            kindergarten.GoToSchool += DoSmth;
+            kindergarten.GoToSchool += ToSchool;
         }
 
-        public void DoSmth(object o, SchoolEventArgs e)
+        public void ToSchool(object o, SchoolEventArgs e)
         {
-            Console.WriteLine("event");
+            int counter=1;
+            foreach (Students s in Kindergarten.kindList.ToList())
+            {
+                s.age++;
+                
+                if (s.age>=10)
+                {
+                    Kindergarten.kindList.Remove(s);
+                    Console.WriteLine(s.ToString() + " moved to school on counter " + counter );
+                    Console.WriteLine();
+                    schoolStud.Add(s);
+                }
+                counter++;
+            }
         }
 
         public void AddToList(Students s)
@@ -33,10 +46,12 @@ namespace Homework_1._14.Classes
 
         public void ShowStudents()
         {
+            Console.WriteLine("school list");
             foreach (Students s in schoolStud)
             {
                 Console.WriteLine(s.ToString());
             }
+            Console.WriteLine();
         }
 
     }

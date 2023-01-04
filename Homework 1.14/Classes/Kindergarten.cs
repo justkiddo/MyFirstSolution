@@ -20,25 +20,24 @@ namespace Homework_1._14.Classes
         {
             if (GoToSchool!=null)
             {
-                GoToSchool(this, s);
-                Console.WriteLine("event");
+                GoToSchool(this, s); // ??????
             }
         } 
 
         public void ShowStudents()
         {
+            Console.WriteLine("kg list");
             foreach (Students s in kindList)
             {
                 Console.WriteLine(s.ToString());
             }
+            Console.WriteLine();
         }
 
         public void GrowUp(List<Students> from, List<Students> to)
         {
-
                     SchoolEventArgs sc = new SchoolEventArgs(from, to);
                     OnTimeToSchool(sc);
-                
         }
     }
 }

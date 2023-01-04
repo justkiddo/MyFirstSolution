@@ -1,9 +1,6 @@
-﻿
+﻿using Homework_1._14.Classes;
 
 
-
-
-using Homework_1._14.Classes;
 
 Kindergarten kindergarten= new Kindergarten();
 School school = new School(kindergarten);
@@ -21,7 +18,9 @@ kindergarten.AddToList(st4);
 kindergarten.AddToList(st5);
 
 
-kindergarten.ShowStudents();
 Console.WriteLine();
+
 kindergarten.GrowUp(Kindergarten.kindList, School.schoolStud);
-kindergarten.ShowStudents();
+kindergarten.GrowUp(Kindergarten.kindList, School.schoolStud);
+kindergarten.GrowUp(Kindergarten.kindList, School.schoolStud);
+kindergarten.GrowUp(Kindergarten.kindList, School.schoolStud);
