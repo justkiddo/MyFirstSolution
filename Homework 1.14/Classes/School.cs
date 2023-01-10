@@ -8,11 +8,15 @@ namespace Homework_1._14.Classes
 {
     internal class School 
     {
-        public static List<Students> schoolStud = new List<Students>();
-
+        private static List<Student> schoolStud = new List<Student>();
 
         public School()
         {
+        }
+
+        public static List<Student> GetList()
+        {
+            return schoolStud;
         }
 
         public School(Kindergarten kindergarten)
@@ -23,13 +27,12 @@ namespace Homework_1._14.Classes
         public void ToSchool(object o, SchoolEventArgs e)
         {
             int counter=1;
-            foreach (Students s in Kindergarten.kindList.ToList())
+            foreach (Student s in Kindergarten.GetList().ToList())
             {
-                s.age++;
-                
-                if (s.age>=10)
+                s.AgePlus();
+                if (s.GetAge() >= 10)
                 {
-                    Kindergarten.kindList.Remove(s);
+                    Kindergarten.GetList().Remove(s);
                     Console.WriteLine(s.ToString() + " moved to school on counter " + counter );
                     Console.WriteLine();
                     schoolStud.Add(s);
@@ -38,16 +41,16 @@ namespace Homework_1._14.Classes
             }
         }
 
-        public void AddToList(Students s)
+        public void AddToList(Student s)
         {
-            Kindergarten.kindList.Remove(s);
+            Kindergarten.GetList().Remove(s);
             schoolStud.Add(s);
         }
 
         public void ShowStudents()
         {
             Console.WriteLine("school list");
-            foreach (Students s in schoolStud)
+            foreach (Student s in schoolStud)
             {
                 Console.WriteLine(s.ToString());
             }

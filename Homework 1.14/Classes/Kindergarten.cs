@@ -9,9 +9,14 @@ namespace Homework_1._14.Classes
     internal class Kindergarten
     {
         public event EventHandler<SchoolEventArgs> GoToSchool;
-        public static List<Students> kindList = new List<Students>();
+        private static List<Student> kindList = new List<Student>();
 
-        public void AddToList(Students s)
+
+        public static List<Student> GetList()
+        {
+            return kindList;
+        }
+        public void AddToList(Student s)
         {
             kindList.Add(s);
         }
@@ -27,14 +32,14 @@ namespace Homework_1._14.Classes
         public void ShowStudents()
         {
             Console.WriteLine("kg list");
-            foreach (Students s in kindList)
+            foreach (Student s in kindList)
             {
                 Console.WriteLine(s.ToString());
             }
             Console.WriteLine();
         }
 
-        public void GrowUp(List<Students> from, List<Students> to)
+        public void GrowUp(List<Student> from, List<Student> to)
         {
                     SchoolEventArgs sc = new SchoolEventArgs(from, to);
                     OnTimeToSchool(sc);

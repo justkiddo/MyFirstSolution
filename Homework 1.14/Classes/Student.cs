@@ -6,17 +6,25 @@ using System.Threading.Tasks;
 
 namespace Homework_1._14.Classes
 {
-    internal class Students
+    internal class Student
     {
         string name = string.Empty;
-        public int age;
+        private int age;
         
-        public Students(string name, int age) 
+        public Student(string name, int age) 
         {
          this.name = name;
          this.age = age;
         }
 
+        public int GetAge()
+        {
+            return age;
+        }
+        public void AgePlus()
+        {
+            this.age++;
+        }
         public override string ToString()
         {
             string value = $"name - {name} || age - {age}";

@@ -8,10 +8,10 @@ namespace Homework_1._14.Classes
 {
     internal class SchoolEventArgs : EventArgs
     {
-        public List<Students> fromSch;
-        public List<Students> fromKg;
+        public List<Student> fromSch;
+        public List<Student> fromKg;
 
-        public SchoolEventArgs(List<Students> fromKg, List<Students> fromSch)
+        public SchoolEventArgs(List<Student> fromKg, List<Student> fromSch)
         {
             this.fromKg = fromKg;
             this.fromSch = fromSch;
