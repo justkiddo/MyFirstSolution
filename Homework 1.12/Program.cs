@@ -18,13 +18,13 @@ using Homework_1._12.Classes._2;
 
 
 
-Workers worker1 = new Workers("john", 4315);
-Workers worker2 = new Workers("jack", 3211);
-Workers worker3 = new Workers("jim", 2010);
-Workers worker4 = new Workers("henry", 1234);
-Workers worker5 = new Workers("arthur", 5346);
-Workers worker6 = new Workers("bob", 1424);
-WorkersList<Workers> cW = new WorkersList<Workers>();
+Worker worker1 = new Worker("john", 4315);
+Worker worker2 = new Worker("jack", 3211);
+Worker worker3 = new Worker("jim", 2010);
+Worker worker4 = new Worker("henry", 1234);
+Worker worker5 = new Worker("arthur", 5346);
+Worker worker6 = new Worker("bob", 1424);
+WorkersList<Worker> cW = new WorkersList<Worker>();
 
 cW.addWorker(worker1);
 cW.addWorker(worker2);

@@ -35,16 +35,11 @@ namespace Homework_1._12.Classes._2
             }
         }
 
-
-
         private void OrderBySalary()
         {
             _workers.Sort();
             Console.WriteLine("List was sorted");
         }
-
-
-
 
         public IEnumerator<Workers> GetEnumerator()
         {

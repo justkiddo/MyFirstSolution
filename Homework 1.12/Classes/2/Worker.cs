@@ -6,15 +6,14 @@ using System.Threading.Tasks;
 
 namespace Homework_1._12.Classes._2
 {
-    public class Workers : IComparable<Workers>
+    public class Worker : IComparable<Worker>
     {
         string name = "default";
         int salary = 0;
 
-        public Workers(string name, int salary){
+        public Worker(string name, int salary){
             this.name = name;
             this.salary = salary;
-            
         }
 
         public string GetName()
@@ -36,8 +35,6 @@ namespace Homework_1._12.Classes._2
             
         }
 
-
-
         public override string ToString()
         {
             string info = $"name - {name} | salary - {salary}";
@@ -45,11 +42,10 @@ namespace Homework_1._12.Classes._2
             return info;
         }
 
-        public int CompareTo(Workers? other)
+        public int CompareTo(Worker? other)
         {
             if (other == null) return 1;
-
-            Workers otherSalary = other as Workers;
+            Worker otherSalary = other as Worker;
             if (otherSalary != null)
                 return this.salary.CompareTo(otherSalary.salary);
             else
