@@ -25,8 +25,19 @@ namespace Homework_1._15
         {
         }
 
-        public override string ToString() => $"id - {id} year - {year} month - {month} duration - {duration}";
-
+        public override string ToString()
+        {
+        string value = string.Empty;
+            if (id != 0)
+                value += $"id - {id}";
+            if (year != 0)
+                value += $" year - {year}";
+            if (month != 0)
+                value += $" month - {month}";
+            if (duration != 0)
+                value += $" duration - {duration}";
+            return value;
+        }
 
     }
 }

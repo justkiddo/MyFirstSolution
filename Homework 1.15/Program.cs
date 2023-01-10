@@ -55,15 +55,15 @@ List<Clients> clients = new List<Clients>() { new (11, 2015, 12, 45),
 
 
 
-var filteredCl = clients.GroupBy(y => y.year).Select(group => new Clients
+var groupedCl = clients.GroupBy(y => y.year).Select(group => new Clients
 {
     year = group.Key,
     duration = group.Sum(d => d.duration)
 });
 
-var filteredFcl = filteredCl.Where(d => d.duration == filteredCl.Max(d => d.duration));
+var folteredCl = groupedCl.Where(d => d.duration == groupedCl.Max(d => d.duration));
 
-foreach (Clients c in filteredFcl)
+foreach (Clients c in folteredCl)
 {
     Console.WriteLine(c.ToString());
 }
