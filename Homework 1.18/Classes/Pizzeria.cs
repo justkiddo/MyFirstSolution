@@ -8,14 +8,16 @@ namespace Homework_1._18.Classes
 {
     internal class Pizzeria
     {
-        Semaphore semaphore = new Semaphore(2,4);
+        static SemaphoreSlim semaphoreSlim = new SemaphoreSlim(2,4);
 
         public void Run()
         {
+
         }
 
-        public static async Task CreatePizza(CancellationToken token)
+        public static async Task CreatePizzaAsync(CancellationToken token)
         {
+            await semaphoreSlim.WaitAsync();
             await Task.Run(() =>
             {
                 int c = 5;

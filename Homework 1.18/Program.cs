@@ -42,14 +42,15 @@ namespace Homework_1._18
 
             // 3 ===================================================================
 
+            bool isEnd = false;
             CancellationTokenSource cts4 = new CancellationTokenSource();
             var token4 = cts4.Token;
 
 
-            while (!token4.IsCancellationRequested)
+            while (!isEnd)
             {
                 result = Console.ReadLine();
-                Pizzeria.CreatePizza(token4);
+                Pizzeria.CreatePizzaAsync(token4);
                 
                 Console.ReadLine();
                 if (result == "2")
