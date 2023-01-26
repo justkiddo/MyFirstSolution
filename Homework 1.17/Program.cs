@@ -11,7 +11,6 @@ var writeStream1 = new FileStream($"{dirPath}{file1}", FileMode.Create, FileAcce
 var writeStream2 = new FileStream($"{dirPath}{file2}", FileMode.Create, FileAccess.Write);
 var writeStream3 = new FileStream($"{dirPath}{file3}", FileMode.Create, FileAccess.Write);
 
-
 string first = "some kind of text1";
 string second = "other kind of text2";
 
@@ -26,8 +25,6 @@ sw2.Close();
 writeStream1.Close();
 writeStream2.Close();
 writeStream3.Close();
-
-
 
 Thread t1 = new Thread(TextWorker.ActionOne);
 t1.Start();

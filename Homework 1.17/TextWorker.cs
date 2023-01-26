@@ -49,7 +49,5 @@ namespace Homework_1._17
             sw.Close();
             writeStream.Close();
         }
-
-
     }
 }

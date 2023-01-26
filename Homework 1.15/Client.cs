@@ -8,11 +8,11 @@ namespace Homework_1._15
 {
     internal class Clients
     {
+
         public int id;
         public int year;
         public int month;
         public int duration;
-
 
         public Clients(int id, int year, int month, int duration)
         {
@@ -21,13 +21,14 @@ namespace Homework_1._15
             this.month = month;
             this.duration = duration;
         }
+
         public Clients()
         {
         }
 
         public override string ToString()
         {
-        string value = string.Empty;
+            string value = string.Empty;
             if (id != 0)
                 value += $"id - {id}";
             if (year != 0)
@@ -38,6 +39,5 @@ namespace Homework_1._15
                 value += $" duration - {duration}";
             return value;
         }
-
     }
 }

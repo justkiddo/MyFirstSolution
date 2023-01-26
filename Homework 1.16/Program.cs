@@ -1,7 +1,5 @@
 ﻿using Homework_1._16;
 
-
-
 DirectoryWorker dw = new DirectoryWorker();
 
 dw.SetPath("F:\\TestDirectory\\");

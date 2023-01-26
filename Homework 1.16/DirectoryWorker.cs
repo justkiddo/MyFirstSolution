@@ -67,6 +67,5 @@ namespace Homework_1._16
             this.path = path;
         }
 
-
     }
 }
