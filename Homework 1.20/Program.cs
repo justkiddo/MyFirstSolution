@@ -9,8 +9,6 @@ namespace Homework_1._20
         {
             try
             {
-                Console.WriteLine(Environment.CurrentDirectory);
-
                 string path = "C:\\Users\\vanek\\OneDrive\\документы\\Git Projects\\Homework 1.20\\Plugins\\Library.dll";
 
                 Assembly assembly = AssemblyLoadContext.Default.LoadFromAssemblyPath(path);
