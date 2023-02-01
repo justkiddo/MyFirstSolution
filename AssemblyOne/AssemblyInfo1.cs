@@ -12,12 +12,14 @@ using System.Runtime.InteropServices;
 // невидимыми для компонентов COM. Если вам необходимо получить доступ к типу в этой
 // сборке из модели COM, установите значение true для атрибута ComVisible этого типа.
 
-[assembly: ComVisible(false)]
+[assembly: ComVisible(true)]
 
 // Следующий GUID служит для идентификации библиотеки типов typelib, если этот проект
 // будет видимым для COM.
 
 
-//[assembly: AssemblyTitle("NewTitle")]    // тут не работает, изменил в AssemblyOne\obj\Release\net6.0\AssemblyOne.AssemblyInfo.cs
+[assembly: AssemblyTitle("NewTitle")]    
 [assembly: Description("some description")]
+[assembly: AssemblyCompany("Kozichkin")]
+[assembly: AssemblyVersion("2.0.0")]
 [assembly: Guid("0f739165-0f8b-4747-a3d1-9e684fadf65e")]
